@@ -60,50 +60,144 @@ Cada prompt sigue metodologías reconocidas de ingeniería de prompts (LangGPT, 
 ## Estructura del Repositorio
 
 ```
-📁 repositorio-prompts/
+📁 awesome-ai-prompts/
 │
 ├── 📄 LICENSE
 ├── 📄 README.md
 │
 ├── 📁 academic_writing/
 │   ├── 📁 apa_quarto/
-│   │   └── 2025-12-10 prompt generador interactivo avanzado de plantillas apaquarto.md
-│   └── 📁 monographs/
-│       ├── 2026-01-16 prompt 3 para generar y revisar contenido de monografías en formato markdown con estilo APA.md
-│       ├── 2026-02-15 prompt 1 para generar títulos de monografias.md
-│       ├── 2026-02-15 prompt 2 para generar la estructura de monografías.md
-│       ├── 2026-02-15 prompt 5 para generar contenido de presentaciones en LaTex.md
-│       └── 2026-02-15 prompt 6 para generar guion de presentaciones.md
+│   │   └── prompt_generador_interactivo_avanzado_de_plantillas_apaquarto.md
+│   ├── 📁 monographs/
+│   │   ├── prompt_1_para_generar_titulos_de_monografias.md
+│   │   ├── prompt_2_para_generar_la_estructura_de_monografias.md
+│   │   ├── prompt_3_para_generar_monografias_en_formato_md_con_estilo_apa.md
+│   │   └── prompt_4_para_revisar_monografias.md
+│   ├── 📁 presentations/
+│   │   ├── prompt_1_para_generar_estructura_de_presentaciones.md
+│   │   ├── prompt_2_para_generar_contenido_de_presentaciones_en_latex.md
+│   │   └── prompt_3_para_generar_guion_de_presentaciones.md
+│   └── prompt_para_generador_de_material_preuniversitario_en_latex.md
+│
+├── 📁 administrative/
+│   ├── prompt_acta_sesion.md
+│   ├── prompt_auxiliares_administrativos.md
+│   ├── prompt_informe_administrativo.md
+│   ├── prompt_memorando_administrativo.md
+│   ├── prompt_oficio_administrativo.md
+│   └── prompt_solicitud_formal.md
+│
+├── 📁 assets/
+│   ├── 📁 images/
+│   │   └── pasted_image_20250702000757.png
+│   └── 📁 presentations/
+│       └── prompts_chatgpt.pptx
 │
 ├── 📁 content_creation/
-│   ├── 2025-01-19 prompt para blogs seo.md
-│   └── 2025-04-18 prompt para metadescripcion.md
+│   ├── prompt_metadescripcion_seo.md
+│   └── prompt_para_blogs_seo.md
 │
 ├── 📁 education/
 │   ├── 📁 courses/
-│   │   └── 2025-07-01 prompt para estudiar cursos.md
+│   │   ├── prompt_01_lectura_academica.md
+│   │   └── prompt_05_humanidades_ciencias_sociales.md
+│   ├── 📁 economia/
+│   │   ├── prompt_01_matematicas.md
+│   │   ├── prompt_02_microeconomia.md
+│   │   ├── prompt_03_organizacion_industrial.md
+│   │   ├── prompt_04_economia_publica.md
+│   │   ├── prompt_05_recursos_naturales_ambientales.md
+│   │   ├── prompt_06_crecimiento_desarrollo.md
+│   │   ├── prompt_07_evaluacion_proyectos.md
+│   │   ├── prompt_08_macroeconomia.md
+│   │   ├── prompt_09_macroeconomia_dinamica.md
+│   │   ├── prompt_10_economia_computacional.md
+│   │   ├── prompt_11_economia_monetaria.md
+│   │   ├── prompt_12_comercio_internacional.md
+│   │   ├── prompt_13_econometria.md
+│   │   ├── prompt_14_microeconometria_aplicada.md
+│   │   └── prompt_15_finanzas.md
 │   ├── 📁 english/
-│   │   ├── 2025-05-25 prompt para estudiar ingles.md
-│   │   └── 2025-06-17 prompt para aprender ingles con duolingo.md
-│   └── 📁 research_methodology/
-│       ├── 2025-01-19 prompt para investigacion cuantitativa.md
-│       ├── 2025-03-28 prompt para formulacion de proyectos social.md
-│       └── 2025-07-02 promp para notebooklm.md
+│   │   ├── prompt_01_tutor_diario.md
+│   │   ├── prompt_02_gramatica.md
+│   │   ├── prompt_03_conversacion_roleplay.md
+│   │   ├── prompt_04_vocabulario.md
+│   │   ├── prompt_05_correccion_redaccion.md
+│   │   ├── prompt_06_apuntes_duolingo.md
+│   │   └── prompt_07_tareas_libro.md
+│   ├── 📁 formulacion_proyectos/
+│   │   ├── prompt_pip_01_diagnostico_situacion_actual.md
+│   │   ├── prompt_pip_02_problema_causas_efectos_planteamiento.md
+│   │   ├── prompt_pip_03_formulacion.md
+│   │   └── prompt_pip_04_evaluacion_social.md
+│   ├── 📁 research_methodology/
+│   │   └── prompt_para_notebooklm.md
+│   ├── 📁 research_methodology_cualitativo/
+│   │   ├── prompt_00_busqueda_informacion.md
+│   │   ├── prompt_01_tema_investigacion.md
+│   │   ├── prompt_02_titulo_investigacion.md
+│   │   ├── prompt_03_planteamiento_problema.md
+│   │   ├── prompt_04_pregunta_objetivos.md
+│   │   ├── prompt_05_justificacion_delimitacion.md
+│   │   ├── prompt_06_antecedentes_investigacion.md
+│   │   ├── prompt_07_marco_teorico.md
+│   │   ├── prompt_08_diseno_metodologico.md
+│   │   ├── prompt_09_participantes_muestreo.md
+│   │   ├── prompt_10_tecnicas_instrumentos.md
+│   │   └── prompt_11_analisis_informacion.md
+│   ├── 📁 research_methodology_cuantitativo/
+│   │   ├── prompt_01_busqueda_informacion.md
+│   │   ├── prompt_02_tema_investigacion.md
+│   │   ├── prompt_03_titulo_investigacion.md
+│   │   ├── prompt_04_enunciado_problema.md
+│   │   ├── prompt_05_formulacion_problema.md
+│   │   ├── prompt_06_objetivos_investigacion.md
+│   │   ├── prompt_07_justificacion_delimitacion.md
+│   │   ├── prompt_08_antecedentes_investigacion.md
+│   │   ├── prompt_09_marco_referencia.md
+│   │   ├── prompt_10_tipo_nivel_investigacion.md
+│   │   ├── prompt_11_hipotesis_variables.md
+│   │   ├── prompt_12_diseno_investigacion.md
+│   │   ├── prompt_13_poblacion_muestra.md
+│   │   ├── prompt_14_recoleccion_informacion.md
+│   │   ├── prompt_15_procesamiento_modelos_estadisticos.md
+│   │   └── prompt_16_analisis_resultados_discusion.md
+│   └── 📁 software_lenguaje_programación/
+│       ├── prompt_01_bash.md
+│       ├── prompt_02_c_cpp.md
+│       ├── prompt_03_css.md
+│       ├── prompt_04_data_science_ml_ai.md
+│       ├── prompt_05_dsa.md
+│       ├── prompt_06_git.md
+│       ├── prompt_07_html.md
+│       ├── prompt_08_javascript.md
+│       ├── prompt_09_nodejs.md
+│       ├── prompt_10_numpy.md
+│       ├── prompt_11_pandas.md
+│       ├── prompt_12_python.md
+│       ├── prompt_13_react.md
+│       ├── prompt_14_sql.md
+│       ├── prompt_15_typescript.md
+│       ├── prompt_16_latex.md
+│       ├── prompt_17_matplotlib.md
+│       ├── prompt_18_mysql.md
+│       ├── prompt_19_r.md
+│       ├── prompt_20_stata.md
+│       └── prompt_21_matlab_octave.md
 │
 ├── 📁 meta_prompts/
-│   ├── 2024-08-02 prompit.md
-│   └── 2025-05-19 prompt para generar prompts.md
+│   ├── prompit.md
+│   └── prompt_para_generar_prompts.md
 │
 ├── 📁 productivity_tools/
 │   ├── 📁 super_productivity/
-│   │   └── 2025-11-25 prompt para super productivity.md
+│   │   └── prompt_para_super_productivity.md
 │   └── 📁 zotero/
-│       ├── 2025-04-18 prompt para zotero 1 - catalogacion.md
-│       ├── 2025-04-23 prompt para zotero 2 - generador de fichas textuales.md
-│       └── 2025-05-25 prompt para zotero 3 - generador de parafraseo complejo.md
+│       ├── prompt_para_zotero_1_catalogacion.md
+│       ├── prompt_para_zotero_2_generador_de_fichas_textuales.md
+│       └── prompt_para_zotero_3_generador_de_parafraseo_complejo.md
 │
-└── 📁 administrative/
-    └── 2025-07-01 prompt para documentos administrativos.md
+└── prompt_analisis_de_color.md
 ```
 
 ---
