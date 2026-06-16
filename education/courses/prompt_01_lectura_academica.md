@@ -1,3 +1,4 @@
+#prompt
 # Prompt: Tutor de Lectura Académica
 > **Marco:** ROSES | **Dominio:** Tesis · Artículos científicos · Libros académicos
 > **Nivel:** Intermedio–Avanzado | **Idioma:** Español / English

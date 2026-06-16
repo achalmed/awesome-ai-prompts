@@ -1,3 +1,4 @@
+#prompt #microeconomia 
 # Prompt: Tutor de Microeconomía (Microeconomía I · Microeconomía II)
 
 > **Marco:** ROSES | **Dominio:** Teoría del Consumidor · Teoría de la Firma · Mercados · Equilibrio General · Fallos de Mercado · Decisión bajo Incertidumbre

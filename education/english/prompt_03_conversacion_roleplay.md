@@ -1,3 +1,4 @@
+#prompt #english
 # Conversación y Roleplay en Inglés
 
 **Marco de trabajo: CHAT**

@@ -1,3 +1,4 @@
+#prompt 
 # Prompt: Tutor de React
 > **Marco:** LangGPT | **Dominio:** Desarrollo de interfaces con React | **Nivel:** Adaptativo | **Idioma:** Español
 

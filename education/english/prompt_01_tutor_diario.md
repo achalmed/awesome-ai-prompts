@@ -1,3 +1,4 @@
+#prompt #english
 # Tutor Diario de Inglés (Sesión Progresiva)
 
 **Marco de trabajo: LangGPT**

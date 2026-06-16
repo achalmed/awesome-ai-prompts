@@ -952,6 +952,7 @@ La respuesta debe seguir exactamente esta estructura, en este orden:
 
 [Presentar todos los campos de Calibre en el formato indicado. Ver plantilla mas abajo.]
 
+
 ---
 
 ### TAGS
@@ -1921,6 +1922,112 @@ Los campos disponibles varian segun el tipo de elemento seleccionado. Incluir to
 | Item type     | Book                                           |
 
 ---
+#### Generador de Nombre de Archivo
+
+##### Referencia: expresión regular ya configurada en Calibre
+
+La siguiente expresión ya está configurada en `Preferencias → Importar/Exportar → Añadir libros → Expresión regular para metadatos` y **no debe modificarse ni regenerarse**. Se incluye aquí únicamente como referencia para que el nombre de archivo generado la cumpla exactamente:
+
+```
+(?P<author>.*?) - (?P<title>.*?) - (?P<series>.*?)#(?P<series_index>\d*) - (?P<isbn>[0-9X-]*) - (?P<publisher>.*?) - (?P<published>[0-9-]*) - (?P<comments>[^.]*)
+```
+
+> Verificada empíricamente en Calibre 9.9.0: es la única variante de las probadas que extrae correctamente todos los campos, incluso con campos vacíos. No debe anclarse contra la extensión del archivo (`\.[^.]+$` o `[^.]*\.` rompen el match completo).
+
+##### Instrucción para el modelo
+
+Tu única tarea en esta subsección es **construir el nombre de archivo final** (string literal) que cumpla con la estructura, usando **exclusivamente** los metadatos ya generados en la tabla `SALIDA PARA CALIBRE` de esta misma respuesta — nunca los de Zotero, y nunca inventando ni reformateando datos nuevos. No debes generar, explicar ni modificar la expresión regular: ya está definida arriba y configurada en Calibre.
+
+**Estructura obligatoria:**
+
+```
+Autor - Título - Serie #Número - ISBN - Editorial - Fecha - Comentarios.extensión
+```
+
+**Reglas de mapeo campo por campo (todas obligatorias):**
+
+1. **Autor** → valor exacto del campo `Authors` de Calibre, sin modificar formato.
+2. **Título** → valor exacto del campo `Title` de Calibre.
+3. **Serie #Número** → si el campo `Series` tiene valor, escribir `NombreSerie #Número` (el número viene de `Number`). Si `Series` está vacío, escribir solo `#` sin número y sin espacio extra.
+4. **ISBN** → extraer únicamente el valor numérico que sigue a `isbn:` dentro del campo `Ids`. Si no hay ISBN en `Ids`, dejar el campo vacío.
+5. **Editorial** → valor exacto del campo `Publisher`. Si está vacío, dejar vacío.
+6. **Fecha** → valor exacto del campo `Published` (formato ISO `AAAA-MM-DD` o solo `AAAA` según lo que se haya generado). Si está vacío, dejar vacío.
+7. **Comentarios** → **no usar el contenido completo del campo `Comments` de Calibre.** En su lugar, generar un **encabezado corto y estandarizado** que sirva como marcador de catalogación, dejando el `Comments` completo (abstract, etc.) únicamente en la salida de Calibre para pegado manual posterior en la interfaz, nunca en el nombre de archivo.
+   **Formato del encabezado (longitud fija, sin símbolos conflictivos):**
+	```
+   [Clasificador]
+	```
+   
+   Usar exclusivamente el valor ya generado en el campo `Clasificador` de la tabla `SALIDA PARA CALIBRE` (ej. `Libro`, `Articulo academico`, `Tesis`, `Documento de trabajo`). Es corto por diseño (una sola palabra o dos), no contiene puntos, comas, dos puntos, barras ni otros símbolos, y es estable entre todos los archivos de la biblioteca.
+ 
+   Si además existe `Edicion` con valor, añadirlo entre paréntesis sin punto final:
+	```
+   [Clasificador] (Ed [numero])
+	```
+   Ejemplo: `Libro (Ed 9)`, `Tesis`, `Documento de trabajo`.
+ 
+   Si el `Clasificador` no está disponible por algún motivo, dejar el campo de comentarios vacío en el nombre de archivo (no escribir "Sin clasificar" ni similar).
+
+8. **Extensión** → usar la extensión real del archivo proporcionada por el usuario (`.pdf`, `.epub`, `.mobi`, etc.). Si el usuario no la indicó, usar `.pdf` como valor por defecto.
+
+**Reglas de los separadores (críticas para que la regex funcione):**
+
+- El separador entre cada campo es siempre `-` (espacio, guion, espacio), **incluso cuando el campo siguiente o anterior está vacío**. Nunca colapsar ni eliminar separadores por campos vacíos.
+- Un campo vacío se representa como ausencia de texto entre dos separadores, no como `N/A`, `Sin dato` ni similar.
+- Si **Título** o **Autor** contienen un guion (`-`) en su propio texto (ej. "Mankiw, N. Gregory" no tiene, pero "Pre- y post-keynesianismo" sí), usar el separador alternativo `|` en todo el nombre de archivo y advertirlo en "Notas adicionales", ya que con `-` la regex original capturaría mal esos campos.
+- Si **Comentarios** contiene un punto (`.`), advertir en "Notas adicionales" que Calibre cortará el campo `comments` en el primer punto encontrado (limitación conocida de la expresión regular configurada), pero no truncar ni alterar el contenido generado.
+- No usar guion bajo (`_`) como relleno de campos vacíos: Calibre convierte automáticamente `_` en espacio antes de aplicar la regex, lo que rompería la estructura.
+
+**Verificación final obligatoria antes de presentar el nombre de archivo:**
+
+Antes de mostrar el resultado, contar que el nombre de archivo contenga exactamente 6 ocurrencias del separador `-` (o `|` si se usó la variante alternativa) fuera de los campos `Series #Número`, y que el carácter `#` esté presente exactamente una vez. Si la verificación falla, corregir antes de presentar la salida.
+Antes de presentar el nombre de archivo, confirmar que el campo de comentarios resultante no contiene punto (`.`) salvo que sea parte de una abreviatura ya cubierta por el `Clasificador` (no debería ocurrir, ya que la lista oficial de clasificadores no incluye puntos). Si por error apareciera un punto en este campo, eliminarlo antes de presentar el resultado, ya que rompería el corte de extensión en la expresión regular configurada en Calibre.
+
+**Ejemplo con todos los metadatos disponibles:**
+
+Dado que `SALIDA PARA CALIBRE` contiene:
+
+- Authors: `N. Gregory, Mankiw`
+- Title: `Principles of economics`
+- Series: `Economia Moderna`, Number: `1`
+- Ids: `isbn:9780357722091`
+- Publisher: `Cengage Learning`
+- Published: `2021-03-01`
+- Comments  (completo, solo para la tabla de Calibre, no para el nombre de archivo): `Texto introductorio clasico de microeconomia y macroeconomia para estudiantes de pregrado...`
+- Extensión proporcionada por el usuario: `.epub`
+
+El nombre de archivo generado es:
+
+```
+N. Gregory, Mankiw - Principles of economics - Economia Moderna #1 - 9780357722091 - Cengage Learning - 2021-03-01 - Libro (Ed 9).epub
+```
+
+**Ejemplo sin serie, ISBN, editorial, fecha ni comentarios:**
+
+Dado que `SALIDA PARA CALIBRE` contiene solo Authors y Title, con todo lo demás vacío:
+
+```
+N. Gregory, Mankiw - Principles of economics - # -  -  -  - .epub
+```
+
+**Ejemplo con serie pero sin ISBN ni fecha:**
+
+```
+Isaac, Asimov - Foundation - Foundation #1 -  - Plaza & Janes -  - .epub
+```
+
+##### Formato de presentación en la respuesta
+
+Al final de la sección `SALIDA PARA CALIBRE`, añadir:
+
+```
+NOMBRE DE ARCHIVO PARA IMPORTAR EN CALIBRE
+[nombre de archivo generado, en un bloque de código, listo para copiar y usar directamente como nombre de archivo en el sistema]
+```
+
+No repetir la expresión regular en cada respuesta: ya está fija y configurada en Calibre, no debe regenerarse ni explicarse de nuevo salvo que el usuario lo pida explícitamente.
+
+---
 
 ### TAGS
 
@@ -1935,7 +2042,7 @@ La respuesta debe estar organizada en las siguientes secciones, en este orden:
 
 1. **Justificacion del tipo de elemento** (1-3 oraciones)
 2. **Salida para Zotero** (todos los campos del tipo seleccionado)
-3. **Salida para Calibre** (mismos metadatos, formato Calibre)
+3. **Salida para Calibre** (mismos metadatos, formato Calibre, nombre del archivo)
 4. **Tags**
    - Zotero (punto y coma)
    - Calibre (coma)

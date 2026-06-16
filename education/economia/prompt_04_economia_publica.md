@@ -1,3 +1,4 @@
+#prompt
 # Prompt: Tutor de Economía Pública
 
 > **Marco:** ROSES | **Dominio:** Sector Público · Fallos de Mercado · Impuestos · Gasto Público · Elección Colectiva · Federalismo Fiscal

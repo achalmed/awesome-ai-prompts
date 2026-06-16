@@ -1,3 +1,4 @@
+#prompt 
 # Prompt PIP-04 — Evaluación Social del Proyecto de Inversión Pública (Capítulo 5)
 
 > **Marco:** SCOPE | **Dominio:** Formulación de Proyectos de Inversión Pública · Capítulo 5 – Evaluación

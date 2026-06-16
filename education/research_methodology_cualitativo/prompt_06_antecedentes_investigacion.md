@@ -1,3 +1,4 @@
+#prompt #metodologia_investigacion 
 # Prompt 06 — Antecedentes de Investigación Cualitativa
 
 > **Marco:** ROSES | **Dominio:** Metodología cualitativa · Revisión de literatura · Redacción de antecedentes  

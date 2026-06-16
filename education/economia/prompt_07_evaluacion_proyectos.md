@@ -1,3 +1,4 @@
+#prompt
 # Prompt: Tutor de Diseño y Evaluación Social de Proyectos
 
 > **Marco:** TRACE | **Dominio:** Formulación de Proyectos · Evaluación Social · Análisis Costo-Beneficio · Precios Sombra

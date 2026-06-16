@@ -1,3 +1,4 @@
+#prompt #metodologia_investigacion 
 # Prompt 00 — Búsqueda de Información con Ecuaciones para Investigación Cualitativa
 
 > **Marco:** LangGPT | **Dominio:** Recuperación de información científica · Investigación cualitativa · Revisión bibliográfica  

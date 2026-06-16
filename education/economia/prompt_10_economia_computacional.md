@@ -1,3 +1,4 @@
+#prompt
 # Prompt: Tutor de Economía Computacional
 
 > **Marco:** TRACE | **Dominio:** Programación · Métodos Numéricos · Modelos de Equilibrio General Neoclásico y Neokenesiano · MATLAB · Dynare

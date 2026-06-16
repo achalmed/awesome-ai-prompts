@@ -1,3 +1,4 @@
+#prompt
 # Prompt: Tutor de Matemáticas para Economía (Matemáticas I · II · III)
 
 > **Marco:** TRACE | **Dominio:** Cálculo · Álgebra Lineal · Optimización Estática y Dinámica

@@ -1,3 +1,4 @@
+#prompt
 # Prompt: Tutor de Humanidades y Ciencias Sociales
 > **Marco:** CHAT | **Dominio:** Filosofía · Ciencia Política · Sociología · Historia · Derecho · Antropología
 > **Nivel:** Universitario–Posgrado | **Idioma:** Español

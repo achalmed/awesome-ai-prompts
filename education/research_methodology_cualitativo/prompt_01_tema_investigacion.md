@@ -1,3 +1,4 @@
+#prompt #metodologia_investigacion 
 # Prompt 01 — Tema de Investigación Cualitativa
 
 > **Marco:** ROSES | **Dominio:** Metodología de la investigación · Paradigma cualitativo · Formulación del tema  

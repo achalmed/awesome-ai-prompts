@@ -1,3 +1,4 @@
+#prompt
 # Prompt: Tutor de Macroeconomía Dinámica
 
 > **Marco:** ROSES | **Dominio:** Modelos Dinámicos · Teoría del Consumo · Gobierno · Ciclos · Valoración de Activos · Desempleo

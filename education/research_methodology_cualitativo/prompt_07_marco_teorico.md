@@ -1,3 +1,4 @@
+#prompt #metodologia_investigacion 
 # Prompt 07 — Marco Teórico en Investigación Cualitativa
 
 > **Marco:** LangGPT | **Dominio:** Metodología cualitativa · Marco teórico · Fundamentación epistemológica  

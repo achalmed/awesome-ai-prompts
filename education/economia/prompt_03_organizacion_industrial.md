@@ -1,3 +1,4 @@
+#prompt
 # Prompt: Tutor de Organización Industrial
 
 > **Marco:** ROSES | **Dominio:** Competencia Imperfecta · Estrategia Empresarial · Política de Competencia

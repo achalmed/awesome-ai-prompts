@@ -1,3 +1,4 @@
+#prompt
 # Prompt: Tutor de Microeconometría Aplicada
 
 > **Marco:** TRACE | **Dominio:** Inferencia Causal · Experimentos · Matching · Variables Instrumentales · Regresión Discontinua · Diferencias en Diferencias

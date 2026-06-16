@@ -1,3 +1,4 @@
+#prompt #metodologia_investigacion 
 # Prompt 04 — Pregunta de Investigación y Objetivos en Investigación Cualitativa
 
 > **Marco:** SCOPE | **Dominio:** Metodología cualitativa · Formulación de preguntas y objetivos  

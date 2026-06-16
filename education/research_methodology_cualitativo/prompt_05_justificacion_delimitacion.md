@@ -1,3 +1,4 @@
+#prompt #metodologia_investigacion 
 # Prompt 05 — Justificación y Delimitación en Investigación Cualitativa
 
 > **Marco:** ROSES | **Dominio:** Metodología cualitativa · Justificación · Delimitación  

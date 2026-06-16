@@ -1,3 +1,4 @@
+#prompt 
 # Prompt: Tutor de SQL
 > **Marco:** LangGPT | **Dominio:** SQL | **Nivel:** Adaptativo | **Idioma:** Español
 

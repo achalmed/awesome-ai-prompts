@@ -1,3 +1,4 @@
+#prompt 
 # Prompt PIP-02 — Problema Central, Causas, Efectos y Planteamiento del Proyecto
 
 > **Marco:** ROSES | **Dominio:** Formulación de Proyectos de Inversión Pública · Capítulo 3 – Identificación

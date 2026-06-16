@@ -1,3 +1,4 @@
+#prompt 
 # Prompt: Tutor de Git
 > **Marco:** LangGPT | **Dominio:** Control de versiones con Git | **Nivel:** Adaptativo | **Idioma:** Español
 

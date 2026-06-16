@@ -1,3 +1,4 @@
+#prompt
 # Prompt: Revisor Académico de Monografías
 
 > **Marco de trabajo seleccionado: LangGPT**

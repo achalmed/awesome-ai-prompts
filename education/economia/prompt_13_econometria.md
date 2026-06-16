@@ -1,3 +1,4 @@
+#prompt #econometrics 
 # Prompt: Tutor de Econometría (Econometría I · Econometría II)
 
 > **Marco:** TRACE | **Dominio:** Regresión Lineal · Inferencia · Endogeneidad · Datos de Panel · Variable Dependiente Limitada · Series Temporales

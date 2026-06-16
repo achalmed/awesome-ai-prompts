@@ -1,3 +1,4 @@
+#prompt 
 # Prompt: Tutor de MySQL
 > **Marco:** LangGPT | **Dominio:** Bases de datos relacionales con MySQL | **Nivel:** Adaptativo | **Idioma:** Español
 

@@ -1,3 +1,4 @@
+#prompt #metodologia_investigacion 
 # Prompt 10 — Técnicas e Instrumentos de Recolección de Información Cualitativa
 
 > **Marco:** TRACE | **Dominio:** Metodología cualitativa · Técnicas de recolección · Instrumentos  

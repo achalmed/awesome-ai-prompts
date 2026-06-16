@@ -1,3 +1,4 @@
+#prompt 
 # Prompt: Tutor de LaTeX
 > **Marco:** LangGPT | **Dominio:** Escritura científica y académica con LaTeX | **Nivel:** Adaptativo | **Idioma:** Español
 

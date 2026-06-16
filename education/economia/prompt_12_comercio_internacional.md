@@ -1,3 +1,4 @@
+#prompt
 # Prompt: Tutor de Comercio Internacional
 
 > **Marco:** ROSES | **Dominio:** Ventaja Comparativa · Modelos de Comercio · Factores y Distribución · Política Comercial

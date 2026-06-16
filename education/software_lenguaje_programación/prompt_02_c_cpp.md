@@ -1,3 +1,4 @@
+#prompt 
 # Prompt: Tutor de C y C++
 > **Marco:** LangGPT | **Dominio:** Programación de sistemas con C y C++ | **Nivel:** Adaptativo | **Idioma:** Español
 

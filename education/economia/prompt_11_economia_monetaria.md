@@ -1,3 +1,4 @@
+#prompt
 # Prompt: Tutor de Economía Monetaria
 
 > **Marco:** ROSES | **Dominio:** Dinero · Modelos Neoclásico y Neokenesiano con Dinero · Política Monetaria · Banca Central

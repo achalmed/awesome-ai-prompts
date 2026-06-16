@@ -1,3 +1,4 @@
+#prompt #metodologia_investigacion 
 # Prompt 11 — Análisis de Información en Investigación Cualitativa
 
 > **Marco:** SPAR | **Dominio:** Metodología cualitativa · Análisis de datos · Interpretación  

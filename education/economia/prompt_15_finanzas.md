@@ -1,3 +1,4 @@
+#prompt #finance 
 # Prompt: Tutor de Finanzas (Finanzas I · Finanzas II · Finanzas III)
 
 > **Marco:** ROSES | **Dominio:** Economía Financiera · Finanzas Corporativas · Finanzas Avanzadas · Mercados Financieros

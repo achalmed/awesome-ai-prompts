@@ -1,3 +1,4 @@
+#prompt 
 # Prompt: Tutor de TypeScript
 > **Marco:** LangGPT | **Dominio:** Tipado estático con TypeScript | **Nivel:** Adaptativo | **Idioma:** Español
 

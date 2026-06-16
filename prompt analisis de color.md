@@ -1,3 +1,4 @@
+#prompt 
 Usando este retrato, crea un análisis de color
 personal con un diagrama al principio.
 Muestra qué colores de ropa favorecen al sujeto

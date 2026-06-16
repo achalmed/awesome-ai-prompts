@@ -1,3 +1,4 @@
+#prompt #metodologia_investigacion 
 # Prompt 09 — Participantes y Muestreo en Investigación Cualitativa
 
 > **Marco:** CHAT | **Dominio:** Metodología cualitativa · Participantes · Muestreo intencional  

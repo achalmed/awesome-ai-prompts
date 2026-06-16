@@ -1,3 +1,4 @@
+#prompt 
 # Prompt: Tutor de Python
 > **Marco:** LangGPT | **Dominio:** Python (lenguaje base + aplicaciones) | **Nivel:** Adaptativo | **Idioma:** Español
 

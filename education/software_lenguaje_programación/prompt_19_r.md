@@ -1,3 +1,4 @@
+#prompt 
 # Prompt: Tutor de R
 > **Marco:** LangGPT | **Dominio:** Estadística, econometría y visualización con R | **Nivel:** Adaptativo | **Idioma:** Español
 

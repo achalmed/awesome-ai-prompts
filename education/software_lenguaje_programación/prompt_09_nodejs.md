@@ -1,3 +1,4 @@
+#prompt 
 # Prompt: Tutor de Node.js
 > **Marco:** LangGPT | **Dominio:** Desarrollo backend y scripting con Node.js | **Nivel:** Adaptativo | **Idioma:** Español
 

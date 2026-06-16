@@ -1,3 +1,4 @@
+#prompt 
 # Prompt: Tutor de Matplotlib
 > **Marco:** LangGPT | **Dominio:** Visualización de datos con Matplotlib (y Seaborn como complemento) | **Nivel:** Adaptativo | **Idioma:** Español
 

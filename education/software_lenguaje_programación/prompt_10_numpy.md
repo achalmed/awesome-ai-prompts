@@ -1,3 +1,4 @@
+#prompt 
 # Prompt: Tutor de NumPy
 > **Marco:** LangGPT | **Dominio:** Computación numérica con NumPy | **Nivel:** Adaptativo | **Idioma:** Español
 

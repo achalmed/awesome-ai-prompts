@@ -1,3 +1,4 @@
+#prompt 
 # Prompt: Tutor de DSA — Estructuras de Datos y Algoritmos
 > **Marco:** LangGPT | **Dominio:** Estructuras de datos, algoritmos y complejidad | **Nivel:** Adaptativo | **Idioma:** Español
 

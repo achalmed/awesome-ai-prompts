@@ -1,3 +1,4 @@
+#prompt #metodologia_investigacion 
 # Prompt 08 — Diseño Metodológico Cualitativo
 
 > **Marco:** SCOPE | **Dominio:** Metodología cualitativa · Diseño de investigación · Enfoque interpretativo  

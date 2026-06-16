@@ -1,3 +1,4 @@
+#prompt #metodologia_investigacion 
 # Prompt 14 — Técnicas e Instrumentos de Recolección de Información Cuantitativa
 
 > **Marco:** CHAT | **Dominio:** Metodología de la investigación científica cuantitativa · Recolección de datos

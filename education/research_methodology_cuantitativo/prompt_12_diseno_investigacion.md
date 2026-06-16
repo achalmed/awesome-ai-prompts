@@ -1,3 +1,4 @@
+#prompt #metodologia_investigacion 
 # Prompt 12 — Diseño de Investigación Cuantitativa
 
 > **Marco:** TRACE | **Dominio:** Metodología de la investigación científica cuantitativa · Diseño experimental y no experimental

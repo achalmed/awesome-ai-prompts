@@ -1,3 +1,4 @@
+#prompt 
 # Prompt: Tutor de Bash
 > **Marco:** LangGPT | **Dominio:** Scripting y automatización con Bash | **Nivel:** Adaptativo | **Idioma:** Español
 

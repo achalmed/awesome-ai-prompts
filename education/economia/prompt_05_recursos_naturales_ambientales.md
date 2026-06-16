@@ -1,3 +1,4 @@
+#prompt
 # Prompt: Tutor de Economía de los Recursos Naturales y Ambientales
 
 > **Marco:** ROSES | **Dominio:** Recursos Naturales · Medio Ambiente · Política Ambiental · Valoración Económica

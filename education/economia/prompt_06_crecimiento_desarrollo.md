@@ -1,3 +1,4 @@
+#prompt
 # Prompt: Tutor de Crecimiento Económico y Economía del Desarrollo
 
 > **Marco:** ROSES | **Dominio:** Modelos de Crecimiento · Convergencia · Tecnología · Microeconomía del Desarrollo · Evaluación de Impacto

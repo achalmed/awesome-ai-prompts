@@ -1,3 +1,4 @@
+#prompt #metodologia_investigacion 
 # Prompt 02 — Título de la Investigación Cualitativa
 
 > **Marco:** TRACE | **Dominio:** Metodología cualitativa · Redacción académica · Formulación del título  

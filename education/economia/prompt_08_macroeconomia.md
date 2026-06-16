@@ -1,3 +1,4 @@
+#prompt #macroeconomia 
 # Prompt: Tutor de Macroeconomía (Macroeconomía I · Macroeconomía II)
 
 > **Marco:** ROSES | **Dominio:** Corto Plazo · Medio Plazo · Largo Plazo · Expectativas · Economía Abierta · Política Macroeconómica

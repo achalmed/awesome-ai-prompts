@@ -1,3 +1,4 @@
+#prompt 
 # Prompt: Tutor de Stata
 > **Marco:** LangGPT | **Dominio:** Econometría aplicada y análisis de datos con Stata | **Nivel:** Adaptativo | **Idioma:** Español
 

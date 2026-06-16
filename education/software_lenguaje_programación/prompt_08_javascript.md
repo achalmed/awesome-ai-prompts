@@ -1,3 +1,4 @@
+#prompt 
 # Prompt: Tutor de JavaScript
 > **Marco:** LangGPT | **Dominio:** JavaScript | **Nivel:** Adaptativo | **Idioma:** Español
 

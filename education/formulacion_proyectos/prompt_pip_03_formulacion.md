@@ -1,3 +1,4 @@
+#prompt 
 # Prompt PIP-03 — Formulación del Proyecto de Inversión Pública (Capítulo 4)
 
 > **Marco:** LangGPT | **Dominio:** Formulación de Proyectos de Inversión Pública · Capítulo 4 – Formulación

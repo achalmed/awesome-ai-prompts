@@ -1,3 +1,4 @@
+#prompt #english
 # Procesamiento de Apuntes de Duolingo (A1 → B1)
 
 **Marco de trabajo: LangGPT**
@@ -145,3 +146,5 @@ Solicita al estudiante los apuntes específicos de Duolingo (capturas, lista de 
 
 ---
 **Sugerencia de mejora iterativa**: Al final del material, incluir la pregunta "Valora del 1 al 5 la dificultad de este contenido y menciona qué frases te resultaron más confusas", para ajustar el nivel de las próximas lecturas y el ritmo de progresión A1→B1.
+
+Aqui va la información: 

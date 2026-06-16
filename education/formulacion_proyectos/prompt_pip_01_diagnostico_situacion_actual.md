@@ -1,3 +1,4 @@
+#prompt 
 # Prompt PIP-01 — Diagnóstico de la Situación Actual
 
 > **Marco:** LangGPT | **Dominio:** Formulación de Proyectos de Inversión Pública · Capítulo 3 – Identificación

@@ -1,3 +1,4 @@
+#prompt #metodologia_investigacion 
 # Prompt 03 — Planteamiento del Problema en Investigación Cualitativa
 
 > **Marco:** LangGPT | **Dominio:** Metodología cualitativa · Planteamiento del problema · Redacción académica  

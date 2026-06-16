@@ -1,3 +1,4 @@
+#prompt 
 # Prompt: Tutor de MATLAB / GNU Octave
 > **Marco:** LangGPT | **Dominio:** Computación numérica, álgebra lineal y simulación con MATLAB y GNU Octave | **Nivel:** Adaptativo | **Idioma:** Español
 
