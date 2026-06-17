@@ -168,8 +168,8 @@ Sujeto claro + Verbo en voz activa + Complementos directos
 
 **Evita pasivas innecesarias**:
 
-- ❌ "Los datos fueron analizados por el equipo de investigación."
-- ✅ "El equipo de investigación analizó los datos."
+- "Los datos fueron analizados por el equipo de investigación."
+- "El equipo de investigación analizó los datos."
 
 #### Persona Gramatical
 
@@ -321,9 +321,9 @@ Dos tipos:
 
 **Integración de citas**:
 
-- ✅ "La teoría del aprendizaje social (Bandura, 1977) establece que..."
-- ✅ "Investigaciones recientes demuestran que... [@autor2020; @autor2021; @autor2022]."
-- ❌ "Según Autor (2020), [...]. Además, Autor (2021) menciona [...]. Por otro lado, Autor (2022) afirma [...]." (repetitivo)
+- "La teoría del aprendizaje social (Bandura, 1977) establece que..."
+- "Investigaciones recientes demuestran que... [@autor2020; @autor2021; @autor2022]."
+- "Según Autor (2020), [...]. Además, Autor (2021) menciona [...]. Por otro lado, Autor (2022) afirma [...]." (repetitivo)
 
 **Síntesis, no catálogo**:
 
@@ -437,34 +437,34 @@ Dos tipos:
 
 **NUNCA uses expresiones que insinúen falta de información**:
 
-- ❌ "no se detalla", "no se especifica", "no se proporcionó"
-- ❌ "según los datos disponibles", "con la información proporcionada"
-- ❌ "asumiendo que", "suponiendo", "es probable que"
-- ❌ "podría inferirse", "parece indicar", "da a entender"
-- ❌ "sugiere que" (cuando implica incertidumbre injustificada)
-- ❌ "es posible que", "en apariencia", "aparentemente"
+- "no se detalla", "no se especifica", "no se proporcionó"
+- "según los datos disponibles", "con la información proporcionada"
+- "asumiendo que", "suponiendo", "es probable que"
+- "podría inferirse", "parece indicar", "da a entender"
+- "sugiere que" (cuando implica incertidumbre injustificada)
+- "es posible que", "en apariencia", "aparentemente"
 
 **NUNCA hagas comentarios meta sobre el proceso de escritura**:
 
-- ❌ "elaboración propia", "basado en la información proporcionada"
-- ❌ "este documento", "la presente monografía", "el presente trabajo"
-- ❌ "este análisis", "se elaboró considerando", "fue redactado con"
-- ❌ "como se observa en el texto generado"
+- "elaboración propia", "basado en la información proporcionada"
+- "este documento", "la presente monografía", "el presente trabajo"
+- "este análisis", "se elaboró considerando", "fue redactado con"
+- "como se observa en el texto generado"
 
 **NUNCA menciones limitaciones por falta de información**:
 
-- ❌ "limitaciones del estudio", "ausencia de datos", "falta de detalle"
-- ❌ "no se cuenta con", "no se dispone de", "sería deseable contar con"
-- ❌ "para futuras investigaciones" (salvo en Conclusiones cuando se justifica)
+- "limitaciones del estudio", "ausencia de datos", "falta de detalle"
+- "no se cuenta con", "no se dispone de", "sería deseable contar con"
+- "para futuras investigaciones" (salvo en Conclusiones cuando se justifica)
 
 ### Evita Muletillas Académicas Típicas de IA
 
 **Conectores y expresiones sobreusadas**:
 
-- ❌ "En este sentido", "Por consiguiente", "Es menester señalar"
-- ❌ "Resulta imperativo", "Cabe destacar", "Es importante resaltar"
-- ❌ "Debe tenerse en cuenta que", "No puede dejar de mencionarse"
-- ❌ "Desde esta perspectiva", "Bajo esta óptica", "En el marco de"
+- "En este sentido", "Por consiguiente", "Es menester señalar"
+- "Resulta imperativo", "Cabe destacar", "Es importante resaltar"
+- "Debe tenerse en cuenta que", "No puede dejar de mencionarse"
+- "Desde esta perspectiva", "Bajo esta óptica", "En el marco de"
 
 **Sustituciones recomendadas**:
 
@@ -476,11 +476,11 @@ Dos tipos:
 
 **Patrones a evitar**:
 
-- ❌ Listas sistemáticas de tres elementos idénticos en longitud
-- ❌ Iniciar todos los párrafos con "El...", "La...", "Este..."
-- ❌ Uso mecánico de "En primer lugar... En segundo lugar... Finalmente..."
-- ❌ Párrafos de longitud idéntica en toda una sección
-- ❌ Oraciones de estructura paralela sin variación
+- Listas sistemáticas de tres elementos idénticos en longitud
+- Iniciar todos los párrafos con "El...", "La...", "Este..."
+- Uso mecánico de "En primer lugar... En segundo lugar... Finalmente..."
+- Párrafos de longitud idéntica en toda una sección
+- Oraciones de estructura paralela sin variación
 
 **Estrategias de variación**:
 
@@ -492,55 +492,55 @@ Dos tipos:
 
 **Elimina calificativos injustificados**:
 
-- ❌ "aparentemente", "en cierta medida", "hasta cierto punto"
-- ❌ "relativamente", "en términos generales", "de manera aproximada"
-- ❌ "más o menos", "en cierto modo"
+- "aparentemente", "en cierta medida", "hasta cierto punto"
+- "relativamente", "en términos generales", "de manera aproximada"
+- "más o menos", "en cierto modo"
 
 **Escribe con autoridad cuando los datos lo permitan**:
 
-- ✅ "Los resultados demuestran que..." (si p < .001)
-- ✅ "La teoría establece que..." (cuando es consenso académico)
-- ✅ "Este estudio encontró que..." (para hallazgos propios)
+- "Los resultados demuestran que..." (si p < .001)
+- "La teoría establece que..." (cuando es consenso académico)
+- "Este estudio encontró que..." (para hallazgos propios)
 
 **Matiza solo cuando sea epistémicamente necesario**:
 
-- ✅ "Los datos sugieren que..." (cuando hay evidencia moderada)
-- ✅ "Estos hallazgos podrían explicarse por..." (hipótesis en Discusión)
-- ✅ "Se requiere investigación adicional para..." (limitaciones reales)
+- "Los datos sugieren que..." (cuando hay evidencia moderada)
+- "Estos hallazgos podrían explicarse por..." (hipótesis en Discusión)
+- "Se requiere investigación adicional para..." (limitaciones reales)
 
 ### Evita Lenguaje Excesivamente Formal o Sumiso
 
 **No uses**:
 
-- ❌ "nos permitimos sugerir", "respetuosamente se indica"
-- ❌ "con el debido respeto", "se tiene a bien"
-- ❌ "humildemente proponemos"
+- "nos permitimos sugerir", "respetuosamente se indica"
+- "con el debido respeto", "se tiene a bien"
+- "humildemente proponemos"
 
 **Prefiere tono profesional directo**:
 
-- ✅ "Proponemos que...", "Recomendamos que...", "Este estudio sugiere..."
+- "Proponemos que...", "Recomendamos que...", "Este estudio sugiere..."
 
 ### Evita Cierres Genéricos
 
 **No uses fórmulas predecibles en Conclusiones**:
 
-- ❌ "En conclusión, se puede afirmar que..."
-- ❌ "A modo de síntesis..."
-- ❌ "Finalmente, cabe concluir..."
-- ❌ "Los resultados obtenidos permiten sostener que..."
+- "En conclusión, se puede afirmar que..."
+- "A modo de síntesis..."
+- "Finalmente, cabe concluir..."
+- "Los resultados obtenidos permiten sostener que..."
 
 **Prefiere cierres específicos**:
 
-- ✅ Síntesis directa de hallazgos principales (numerados) que son respuesta concreta a la pregunta de investigación u objetivos planteados al principio.
-- ✅ Implicaciones específicas (no genéricas)
+- Síntesis directa de hallazgos principales (numerados) que son respuesta concreta a la pregunta de investigación u objetivos planteados al principio.
+- Implicaciones específicas (no genéricas)
 
 ### Registro Lingüístico Coherente
 
 **Evita mezclas inadecuadas**:
 
-- ❌ Lenguaje excesivamente elevado mezclado con coloquialismos
-- ❌ Tecnicismos sin definir en textos dirigidos a audiencia general
-- ❌ Expresiones informales en secciones formales (Metodología, Resultados)
+- Lenguaje excesivamente elevado mezclado con coloquialismos
+- Tecnicismos sin definir en textos dirigidos a audiencia general
+- Expresiones informales en secciones formales (Metodología, Resultados)
 
 **Mantén consistencia**:
 
@@ -560,9 +560,9 @@ Dos tipos:
 
 **Prefiere prosa cuando sea posible**:
 
-- ✅ "Los criterios de inclusión fueron: edad entre 18-25 años, matrícula activa y disponibilidad para participar."
+- "Los criterios de inclusión fueron: edad entre 18-25 años, matrícula activa y disponibilidad para participar."
 - En lugar de:
-  - ❌ "Criterios de inclusión:
+  - "Criterios de inclusión:
     - Edad: 18-25 años
     - Matrícula: Activa
     - Disponibilidad: Para participar"

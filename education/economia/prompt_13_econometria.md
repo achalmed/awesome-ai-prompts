@@ -48,19 +48,19 @@ El usuario puede consultar temas de **Econometría I** (fundamentos y regresión
 
 ### Bloque 2 — Regresión Lineal con un Regresor
 
-| Subtema | Contenido central |
-|---|---|
-| El modelo de regresión lineal poblacional | Función de regresión poblacional (FRP), perturbación aleatoria, interpretación de los coeficientes |
-| El estimador MCO | Derivación del estimador de mínimos cuadrados ordinarios: minimización de la suma de cuadrados residuales; fórmulas de $\hat{\beta}_0$ y $\hat{\beta}_1$ |
-| La recta de regresión muestral | Propiedades algebraicas: residuos suman cero, la recta pasa por $(\bar{x}, \bar{y})$, correlación residuos-regresor es cero |
-| Medidas de ajuste | $R^2$: definición (proporción de varianza explicada), SCE, SCR, SCT; limitaciones del $R^2$ |
-| Supuestos del modelo lineal clásico | Linealidad, exogeneidad estricta (E[u|X]=0), homocedasticidad, no autocorrelación, normalidad de los errores |
-| Distribución muestral del estimador MCO | Media y varianza del $\hat{\beta}_1$; insesgadez bajo exogeneidad; consistencia |
-| Contraste sobre el coeficiente de regresión | Estadístico t, región de rechazo, valor p, interpretación económica |
-| Intervalos de confianza en regresión simple | Construcción e interpretación del IC para $\beta_1$ |
-| Regresión con variable binaria | Variable dummy, interpretación del coeficiente como diferencia de medias |
-| Heterocedasticidad | Definición, consecuencias para MCO (insesgado pero ineficiente; errores estándar incorrectos), detección y corrección |
-| Eficiencia del MCO bajo homocedasticidad | Teorema de Gauss-Markov: MCO es MELI (Mejor Estimador Lineal Insesgado) |
+| Subtema                                     | Contenido central                                                                                                                                        |                                                                        |
+| ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| El modelo de regresión lineal poblacional   | Función de regresión poblacional (FRP), perturbación aleatoria, interpretación de los coeficientes                                                       |                                                                        |
+| El estimador MCO                            | Derivación del estimador de mínimos cuadrados ordinarios: minimización de la suma de cuadrados residuales; fórmulas de $\hat{\beta}_0$ y $\hat{\beta}_1$ |                                                                        |
+| La recta de regresión muestral              | Propiedades algebraicas: residuos suman cero, la recta pasa por $(\bar{x}, \bar{y})$, correlación residuos-regresor es cero                              |                                                                        |
+| Medidas de ajuste                           | $R^2$: definición (proporción de varianza explicada), SCE, SCR, SCT; limitaciones del $R^2$                                                              |                                                                        |
+| Supuestos del modelo lineal clásico         | Linealidad, exogeneidad estricta (E[u                                                                                                                    | X]=0), homocedasticidad, no autocorrelación, normalidad de los errores |
+| Distribución muestral del estimador MCO     | Media y varianza del $\hat{\beta}_1$; insesgadez bajo exogeneidad; consistencia                                                                          |                                                                        |
+| Contraste sobre el coeficiente de regresión | Estadístico t, región de rechazo, valor p, interpretación económica                                                                                      |                                                                        |
+| Intervalos de confianza en regresión simple | Construcción e interpretación del IC para $\beta_1$                                                                                                      |                                                                        |
+| Regresión con variable binaria              | Variable dummy, interpretación del coeficiente como diferencia de medias                                                                                 |                                                                        |
+| Heterocedasticidad                          | Definición, consecuencias para MCO (insesgado pero ineficiente; errores estándar incorrectos), detección y corrección                                    |                                                                        |
+| Eficiencia del MCO bajo homocedasticidad    | Teorema de Gauss-Markov: MCO es MELI (Mejor Estimador Lineal Insesgado)                                                                                  |                                                                        |
 
 ### Bloque 3 — Regresión Lineal con Varios Regresores
 

@@ -106,11 +106,11 @@ Referencias
 
 **Criterios de calidad**:
 
-- ✅ Títulos específicos: "Sistemas tradicionales de riego en Chuschi"
-- ❌ Títulos genéricos: "Marco teórico", "Bases teóricas", "Antecedentes"
-- ✅ Progresión lógica: De lo conceptual → lo específico → síntesis
-- ✅ Equilibrio: Capítulos con similar número de subdivisiones
-- ✅ Especificidad geográfica/temporal cuando aplique
+- Títulos específicos: "Sistemas tradicionales de riego en Chuschi"
+- Títulos genéricos: "Marco teórico", "Bases teóricas", "Antecedentes"
+- Progresión lógica: De lo conceptual → lo específico → síntesis
+- Equilibrio: Capítulos con similar número de subdivisiones
+- Especificidad geográfica/temporal cuando aplique
 
 ### **Paso 3: FORMATO DE SALIDA**
 
@@ -230,38 +230,38 @@ Si esta estructura requiere ajustes, por favor indica:
 
 ## **RESTRICCIONES OBLIGATORIAS**
 
-### ❌ **NO HACER**:
+### **NO HACER**:
 
-- ❌ NO usar títulos genéricos: "Marco teórico", "Bases teóricas", "Antecedentes"
-- ❌ NO incluir capítulo de metodología en monografías de compilación
-- ❌ NO exceder 3 niveles de profundidad (máximo 1.1.1)
-- ❌ NO crear desequilibrios: capítulos con 2 subcapítulos vs. otros con 7
-- ❌ NO generar contenido, solo títulos y numeración
-- ❌ NO inventar información no proporcionada por el usuario
+- NO usar títulos genéricos: "Marco teórico", "Bases teóricas", "Antecedentes"
+- NO incluir capítulo de metodología en monografías de compilación
+- NO exceder 3 niveles de profundidad (máximo 1.1.1)
+- NO crear desequilibrios: capítulos con 2 subcapítulos vs. otros con 7
+- NO generar contenido, solo títulos y numeración
+- NO inventar información no proporcionada por el usuario
 
-### ✅ **SÍ HACER**:
+### **SÍ HACER**:
 
-- ✅ Identificar automáticamente el tipo de monografía
-- ✅ Crear títulos específicos que describan exactamente el contenido
-- ✅ Mantener progresión lógica: conceptual → aplicado → sintético
-- ✅ Equilibrar número de subdivisiones entre capítulos (±1 subcapítulo)
-- ✅ Incluir delimitaciones geográficas/temporales en títulos cuando aplique
-- ✅ Solicitar aclaraciones si el tema es ambiguo
+- Identificar automáticamente el tipo de monografía
+- Crear títulos específicos que describan exactamente el contenido
+- Mantener progresión lógica: conceptual → aplicado → sintético
+- Equilibrar número de subdivisiones entre capítulos (±1 subcapítulo)
+- Incluir delimitaciones geográficas/temporales en títulos cuando aplique
+- Solicitar aclaraciones si el tema es ambiguo
 
 ## **VERIFICACIÓN DE CALIDAD**
 
 Antes de entregar la estructura, verifica:
 
-|Criterio|Cumple (✓/✗)|
-|---|---|
-|¿Tipo de monografía correctamente identificado?||
-|¿3-4 capítulos principales?||
-|¿3-5 subcapítulos por capítulo?||
-|¿Máximo 3 niveles de profundidad?||
-|¿Títulos específicos (no genéricos)?||
-|¿Progresión lógica entre capítulos?||
-|¿Equilibrio entre capítulos?||
-|¿Adaptado al tipo de monografía?||
+| Criterio                                        | Cumple (✓/✗) |
+| ----------------------------------------------- | ------------ |
+| ¿Tipo de monografía correctamente identificado? |              |
+| ¿3-4 capítulos principales?                     |              |
+| ¿3-5 subcapítulos por capítulo?                 |              |
+| ¿Máximo 3 niveles de profundidad?               |              |
+| ¿Títulos específicos (no genéricos)?            |              |
+| ¿Progresión lógica entre capítulos?             |              |
+| ¿Equilibrio entre capítulos?                    |              |
+| ¿Adaptado al tipo de monografía?                |              |
 
 ## **EJEMPLOS DE APLICACIÓN**
 
@@ -610,9 +610,9 @@ Por favor indica:
 
 Antes de usar el prompt, ten clara la siguiente información:
 
-- ✅ Tema específico de tu monografía
-- ✅ Extensión aproximada (opcional, pero útil)
-- ✅ Si ya sabes el tipo, indícalo; si no, la IA lo identificará
+- Tema específico de tu monografía
+- Extensión aproximada (opcional, pero útil)
+- Si ya sabes el tipo, indícalo; si no, la IA lo identificará
 
 ### **Paso 2: Uso básico**
 

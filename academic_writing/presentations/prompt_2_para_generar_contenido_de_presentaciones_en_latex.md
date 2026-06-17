@@ -127,7 +127,7 @@ Primero, analizar y confirmar la información recibida:
 
 ---
 
-✅ **Confirmación:** ¿Esta información es correcta?
+**Confirmación:** ¿Esta información es correcta?
 
 ⚠️ **Falta información:** [Listar lo que falta si aplica]
 ```
@@ -775,7 +775,7 @@ Si encuentras errores en el código o necesitas ayuda:
 Antes de entregar el código, verificar:
 
 ```markdown
-## ✅ CHECKLIST DE VALIDACIÓN
+## CHECKLIST DE VALIDACIÓN
 
 ### Código LaTeX:
 - [ ] Preámbulo completo con todos los paquetes necesarios
@@ -824,22 +824,22 @@ Antes de entregar el código, verificar:
 
 ## **RESTRICCIONES Y MEJORES PRÁCTICAS**
 
-### ❌ **NO HACER**:
+### **NO HACER**:
 
 ```latex
-% ❌ MAL: Paths absolutos a imágenes
+% MAL: Paths absolutos a imágenes
 \includegraphics{C:/Users/Juan/Desktop/imagen.png}
 
-% ✅ BIEN: Paths relativos
+% BIEN: Paths relativos
 \includegraphics{images/imagen.png}
 
-% ❌ MAL: Caracteres especiales sin escapar
+% MAL: Caracteres especiales sin escapar
 El costo es $100 dólares
 
-% ✅ BIEN: Escapar caracteres especiales
+% BIEN: Escapar caracteres especiales
 El costo es \$100 dólares
 
-% ❌ MAL: Demasiados bullets por slide
+% MAL: Demasiados bullets por slide
 \begin{itemize}
     \item Punto 1
     \item Punto 2
@@ -851,7 +851,7 @@ El costo es \$100 dólares
     \item Punto 8 % DEMASIADO
 \end{itemize}
 
-% ✅ BIEN: Máximo 5-6 bullets
+% BIEN: Máximo 5-6 bullets
 \begin{itemize}
     \item Punto 1
     \item Punto 2
@@ -859,37 +859,37 @@ El costo es \$100 dólares
     \item Punto 4
 \end{itemize}
 
-% ❌ MAL: Olvidar [fragile] en frames con código
+% MAL: Olvidar [fragile] en frames con código
 \begin{frame}{Código}
     \begin{lstlisting}
     print("Hola")
     \end{lstlisting}
 \end{frame}
 
-% ✅ BIEN: Incluir [fragile]
+% BIEN: Incluir [fragile]
 \begin{frame}[fragile]{Código}
     \begin{lstlisting}
     print("Hola")
     \end{lstlisting}
 \end{frame}
 
-% ❌ MAL: Ecuaciones en modo texto
+% MAL: Ecuaciones en modo texto
 E = mc2
 
-% ✅ BIEN: Ecuaciones en modo matemático
+% BIEN: Ecuaciones en modo matemático
 $E = mc^2$
 ```
 
-### ✅ **SÍ HACER**:
+### **SÍ HACER**:
 
 ```latex
-% ✅ Comentarios descriptivos
+% Comentarios descriptivos
 % Este slide presenta los resultados principales del experimento
 \begin{frame}{Resultados}
     % ...
 \end{frame}
 
-% ✅ Espaciado consistente entre elementos
+% Espaciado consistente entre elementos
 \begin{frame}{Título}
     Texto introductorio.
     
@@ -901,23 +901,23 @@ $E = mc^2$
     \end{itemize}
 \end{frame}
 
-% ✅ Usar comandos personalizados para repeticiones
+% Usar comandos personalizados para repeticiones
 \newcommand{\universidad}{Universidad Nacional de Ingeniería}
 
 % Luego usar: \universidad
 
-% ✅ Agrupar configuraciones similares
+% Agrupar configuraciones similares
 \setbeamercolor{structure}{fg=blue}
 \setbeamercolor{title}{fg=blue,bg=white}
 \setbeamercolor{frametitle}{fg=blue}
 
-% ✅ Labels descriptivos
+% Labels descriptivos
 \begin{equation}
     E = mc^2
     \label{eq:einstein_energia} % No solo \label{eq:1}
 \end{equation}
 
-% ✅ Figuras con caption y label
+% Figuras con caption y label
 \begin{figure}
     \centering
     \includegraphics[width=0.6\textwidth]{figura.png}

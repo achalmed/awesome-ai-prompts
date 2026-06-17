@@ -457,19 +457,19 @@ Si los estudiantes tienen dudas después:
 ### ✅ **SÍ incluir** (suena natural):
 
 ```markdown
-❌ FORMAL/LEÍDO: "A continuación, procederemos a analizar..."
+FORMAL/LEÍDO: "A continuación, procederemos a analizar..."
 ✅ NATURAL: "Bueno, ahora vamos a ver..."
 
-❌ FORMAL/LEÍDO: "Es imperativo comprender que..."
+FORMAL/LEÍDO: "Es imperativo comprender que..."
 ✅ NATURAL: "Es súper importante que entiendan esto..."
 
-❌ FORMAL/LEÍDO: "Diríjanse a la figura número tres..."
+FORMAL/LEÍDO: "Diríjanse a la figura número tres..."
 ✅ NATURAL: "Miren este gráfico [SEÑALAR]..."
 
-❌ FORMAL/LEÍDO: "Como se puede observar en la diapositiva..."
+FORMAL/LEÍDO: "Como se puede observar en la diapositiva..."
 ✅ NATURAL: "Fíjense aquí [PAUSA]..."
 
-❌ FORMAL/LEÍDO: "Los resultados demuestran inequívocamente..."
+FORMAL/LEÍDO: "Los resultados demuestran inequívocamente..."
 ✅ NATURAL: "Entonces, lo que encontramos es que..."
 ```
 
@@ -634,15 +634,15 @@ Copia esto en un post-it:
 
 ## **RESTRICCIONES Y REGLAS**
 
-### ❌ **NO HACER**:
+### **NO HACER**:
 
-- ❌ NO usar lenguaje excesivamente formal o académico rígido
-- ❌ NO escribir párrafos largos sin pausas (máximo 3-4 líneas seguidas)
-- ❌ NO omitir indicaciones de gestos, pausas y énfasis
-- ❌ NO crear transiciones abruptas entre slides
-- ❌ NO escribir contenido que suene "leído" (probar leyéndolo en voz alta)
-- ❌ NO ignorar el archivo de presentación si el usuario lo proporciona
-- ❌ NO generar guion sin especificar tiempos por slide
+- NO usar lenguaje excesivamente formal o académico rígido
+- NO escribir párrafos largos sin pausas (máximo 3-4 líneas seguidas)
+- NO omitir indicaciones de gestos, pausas y énfasis
+- NO crear transiciones abruptas entre slides
+- NO escribir contenido que suene "leído" (probar leyéndolo en voz alta)
+- NO ignorar el archivo de presentación si el usuario lo proporciona
+- NO generar guion sin especificar tiempos por slide
 
 ### ✅ **SÍ HACER**:
 

@@ -123,8 +123,8 @@ Para diseñar la estructura óptima, aclara:
 **C. Crear subtítulos de slides**
 
 - Específicos, no genéricos
-- ✅ Bueno: "Modelo de Solow: Ecuación Fundamental"
-- ❌ Malo: "Concepto 1"
+- Bueno: "Modelo de Solow: Ecuación Fundamental"
+- Malo: "Concepto 1"
 
 ### PASO 3: CÁLCULO DINÁMICO DE SLIDES
 
@@ -224,32 +224,32 @@ Apertura: X slides → X% → X min Introducción: Y slides → Y% → Y min Des
 
 Verificar que:
 
-- ✅ Número de slides calculado dinámicamente (no asumir 100)
-- ✅ Títulos y subtítulos extraídos del contenido real
-- ✅ Progresión pedagógica lógica
-- ✅ Sin notas para el presentador
-- ✅ Sin contenido desarrollado (solo títulos/subtítulos)
-- ✅ Formato exclusivamente Markdown
+- Número de slides calculado dinámicamente (no asumir 100)
+- Títulos y subtítulos extraídos del contenido real
+- Progresión pedagógica lógica
+- Sin notas para el presentador
+- Sin contenido desarrollado (solo títulos/subtítulos)
+- Formato exclusivamente Markdown
 
 ## RESTRICCIONES OBLIGATORIAS
 
-### ❌ NO HACER:
+### NO HACER:
 
-- ❌ NO asumir 100 slides por defecto (calcular según duración)
-- ❌ NO incluir notas para el presentador
-- ❌ NO desarrollar contenido completo (solo estructura)
-- ❌ NO usar títulos genéricos ("Concepto 1", "Tema 2")
-- ❌ NO generar estructura sin analizar el contenido proporcionado
-- ❌ NO entregar en formato diferente a Markdown
+- NO asumir 100 slides por defecto (calcular según duración)
+- NO incluir notas para el presentador
+- NO desarrollar contenido completo (solo estructura)
+- NO usar títulos genéricos ("Concepto 1", "Tema 2")
+- NO generar estructura sin analizar el contenido proporcionado
+- NO entregar en formato diferente a Markdown
 
-### ✅ SÍ HACER:
+### SÍ HACER:
 
-- ✅ Calcular slides según duración especificada
-- ✅ Extraer títulos/subtítulos del contenido proporcionado
-- ✅ Generar estructura jerárquica clara (Sección > Slide > Subtítulos)
-- ✅ Adaptar bloques temáticos al material base
-- ✅ Incluir análisis de distribución temporal
-- ✅ Entregar solo en Markdown
+- Calcular slides según duración especificada
+- Extraer títulos/subtítulos del contenido proporcionado
+- Generar estructura jerárquica clara (Sección > Slide > Subtítulos)
+- Adaptar bloques temáticos al material base
+- Incluir análisis de distribución temporal
+- Entregar solo en Markdown
 
 ## CASOS ESPECIALES: AJUSTE POR DURACIÓN
 
@@ -302,7 +302,7 @@ TOTAL: ~140 slides
 
 ## EJEMPLOS DE TÍTULOS Y SUBTÍTULOS
 
-### ✅ BUENOS EJEMPLOS (específicos, derivados del contenido):
+### BUENOS EJEMPLOS (específicos, derivados del contenido):
 
 **Slide**: "Modelo IS-LM: Equilibrio General" **Subtítulos**:
 
@@ -316,7 +316,7 @@ TOTAL: ~140 slides
 - Sensibilidad y especificidad de pruebas
 - Cálculo del valor predictivo positivo
 
-### ❌ MALOS EJEMPLOS (genéricos, sin valor informativo):
+### MALOS EJEMPLOS (genéricos, sin valor informativo):
 
 **Slide**: "Concepto Principal" **Subtítulos**:
 

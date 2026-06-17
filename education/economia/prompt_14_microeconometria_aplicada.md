@@ -65,17 +65,17 @@ Procesar cualquier contenido de microeconometría aplicada que el usuario propor
 
 ### Bloque 4 — Variables Instrumentales
 
-| Subtema | Contenido central |
-|---|---|
-| Motivación | Endogeneidad: fuentes (variable omitida, causalidad inversa, error de medición), consecuencias para MCO |
-| El instrumento ideal | Dos condiciones: relevancia ($\text{Cov}(Z_i, D_i) \neq 0$) y exogeneidad ($\text{Cov}(Z_i, u_i) = 0$) |
-| El estimador de Wald | Caso con instrumento y regresor binarios: $\hat{\beta}_{IV} = \frac{E[Y|Z=1]-E[Y|Z=0]}{E[D|Z=1]-E[D|Z=0]}$ |
-| MC2E con un instrumento | Primera etapa: regresión de D sobre Z y controles; segunda etapa: regresión de Y sobre $\hat{D}$ y controles |
-| MC2E con múltiples instrumentos | Sobreidentificación, test de Sargan-Hansen de validez de los instrumentos |
-| Efectos heterogéneos y LATE | ¿A qué subpoblación aplica el estimador IV? Compliers, always-takers, never-takers, defiers |
-| Instrumentos débiles | El problema del instrumento débil: sesgos y distorsiones en la inferencia; estadístico F de primera etapa (regla del 10) |
-| Test de endogeneidad (Hausman) | H0: el regresor es exógeno; construcción del test; interpretación |
-| Ejemplos clásicos de instrumentos | Variables climáticas como instrumento de la actividad económica, distancia a la institución educativa, cuartas de nacimiento (quarter of birth), etc. |
+| Subtema                           | Contenido central                                                                                                                                     |          |           |          |        |
+| --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------- | -------- | ------ |
+| Motivación                        | Endogeneidad: fuentes (variable omitida, causalidad inversa, error de medición), consecuencias para MCO                                               |          |           |          |        |
+| El instrumento ideal              | Dos condiciones: relevancia ($\text{Cov}(Z_i, D_i) \neq 0$) y exogeneidad ($\text{Cov}(Z_i, u_i) = 0$)                                                |          |           |          |        |
+| El estimador de Wald              | Caso con instrumento y regresor binarios: $\hat{\beta}_{IV} = \frac{E[Y                                                                               | Z=1]-E[Y | Z=0]}{E[D | Z=1]-E[D | Z=0]}$ |
+| MC2E con un instrumento           | Primera etapa: regresión de D sobre Z y controles; segunda etapa: regresión de Y sobre $\hat{D}$ y controles                                          |          |           |          |        |
+| MC2E con múltiples instrumentos   | Sobreidentificación, test de Sargan-Hansen de validez de los instrumentos                                                                             |          |           |          |        |
+| Efectos heterogéneos y LATE       | ¿A qué subpoblación aplica el estimador IV? Compliers, always-takers, never-takers, defiers                                                           |          |           |          |        |
+| Instrumentos débiles              | El problema del instrumento débil: sesgos y distorsiones en la inferencia; estadístico F de primera etapa (regla del 10)                              |          |           |          |        |
+| Test de endogeneidad (Hausman)    | H0: el regresor es exógeno; construcción del test; interpretación                                                                                     |          |           |          |        |
+| Ejemplos clásicos de instrumentos | Variables climáticas como instrumento de la actividad económica, distancia a la institución educativa, cuartas de nacimiento (quarter of birth), etc. |          |           |          |        |
 
 ### Bloque 5 — Regresión Discontinua
 
@@ -92,18 +92,18 @@ Procesar cualquier contenido de microeconometría aplicada que el usuario propor
 
 ### Bloque 6 — Diferencias en Diferencias
 
-| Subtema | Contenido central |
-|---|---|
-| La idea intuitiva | Usar el grupo de control para estimar cuál habría sido la tendencia del grupo tratado en ausencia del tratamiento |
-| El marco básico de DD | Dos grupos × dos periodos: $\hat{\delta}_{DD} = (\bar{Y}_{T,post} - \bar{Y}_{T,pre}) - (\bar{Y}_{C,post} - \bar{Y}_{C,pre})$ |
-| El supuesto fundamental: tendencias paralelas | $E[Y_{it}(0)|D_i=1] - E[Y_{it}(0)|D_i=0]$ es constante en el tiempo; no observable, debe argumentarse |
-| DD y regresión | Especificación con efectos fijos de grupo y de tiempo e interacción tratamiento × post; equivalencia con el estimador de DD |
-| Variables explicativas adicionales en DD | Cómo incluir controles para mejorar precisión sin sesgar el estimador |
-| Validación del supuesto de tendencias paralelas | Pre-trends: probar que las tendencias eran paralelas antes del tratamiento; prueba de placebo con periodos pre-tratamiento falsos |
-| DD con múltiples periodos y variación en el timing | Staggered DiD: estimador de Callaway-Sant'Anna, problemas del TWFE con efectos del tratamiento heterogéneos |
-| Errores estándar en DD | Clustering a nivel del grupo (estado, región), problema de autocorrelación serial (Bertrand et al.) |
-| El método de control sintético | Construcción de un grupo de control sintético como combinación ponderada de controles; cuándo usarlo |
-| Ejemplo clásico | Efecto del salario mínimo sobre el empleo (Card-Krueger); diseño, supuesto de tendencias paralelas, estimación |
+| Subtema                                            | Contenido central                                                                                                                 |                      |                                                                     |
+| -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- | -------------------- | ------------------------------------------------------------------- |
+| La idea intuitiva                                  | Usar el grupo de control para estimar cuál habría sido la tendencia del grupo tratado en ausencia del tratamiento                 |                      |                                                                     |
+| El marco básico de DD                              | Dos grupos × dos periodos: $\hat{\delta}_{DD} = (\bar{Y}_{T,post} - \bar{Y}_{T,pre}) - (\bar{Y}_{C,post} - \bar{Y}_{C,pre})$      |                      |                                                                     |
+| El supuesto fundamental: tendencias paralelas      | $E[Y_{it}(0)                                                                                                                      | D_i=1] - E[Y_{it}(0) | D_i=0]$ es constante en el tiempo; no observable, debe argumentarse |
+| DD y regresión                                     | Especificación con efectos fijos de grupo y de tiempo e interacción tratamiento × post; equivalencia con el estimador de DD       |                      |                                                                     |
+| Variables explicativas adicionales en DD           | Cómo incluir controles para mejorar precisión sin sesgar el estimador                                                             |                      |                                                                     |
+| Validación del supuesto de tendencias paralelas    | Pre-trends: probar que las tendencias eran paralelas antes del tratamiento; prueba de placebo con periodos pre-tratamiento falsos |                      |                                                                     |
+| DD con múltiples periodos y variación en el timing | Staggered DiD: estimador de Callaway-Sant'Anna, problemas del TWFE con efectos del tratamiento heterogéneos                       |                      |                                                                     |
+| Errores estándar en DD                             | Clustering a nivel del grupo (estado, región), problema de autocorrelación serial (Bertrand et al.)                               |                      |                                                                     |
+| El método de control sintético                     | Construcción de un grupo de control sintético como combinación ponderada de controles; cuándo usarlo                              |                      |                                                                     |
+| Ejemplo clásico                                    | Efecto del salario mínimo sobre el empleo (Card-Krueger); diseño, supuesto de tendencias paralelas, estimación                    |                      |                                                                     |
 
 ---
 

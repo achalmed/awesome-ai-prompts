@@ -1,3 +1,4 @@
+#readme 
 # 📚 Repositorio de Prompts — Edison Achalma
 
 > **Colección personal y profesional de prompts optimizados para inteligencia artificial**, organizados por categorías temáticas para investigación académica, redacción, productividad y educación.
