@@ -25,7 +25,7 @@ Generar un archivo **README.md completo, bien estructurado y listo para publicar
   4. Descripción / propósito del proyecto
   5. Sección variable según tipo de proyecto (ver bloque "Adaptación por tipo" abajo)
   6. Estructura de archivos/carpetas (si aplica)
-  7. Requisitos previos e instalación / cómo usarlo
+  7. Requisitos previos e instalación / cómo usarlo (si aplica)
   8. Ejemplos de uso
   9. Tecnologías o herramientas utilizadas
   10. Cómo contribuir (si el repositorio acepta contribuciones; si no, omitir)
@@ -61,6 +61,15 @@ Generar un archivo **README.md completo, bien estructurado y listo para publicar
   **Edison Achalma**
 
   [LinkedIn](https://linkedin.com/in/achalmaedison) • [GitHub](https://github.com/achalmed) • [Blog](https://achalmaedison.netlify.app) • [Buy Me a Coffee](https://buymeacoffee.com/achalmaedison)
+ 
+ 
+<div align="center">
+
+**Hecho con ❤️ desde Ayacucho, Perú**
+
+_"El conocimiento compartido es el conocimiento multiplicado."_
+
+</div>
   ```
 
 - Si el proyecto es un fork o se basa en otro repositorio, debes incluir una nota de atribución al proyecto original (nombre y enlace) inmediatamente después de la descripción.
