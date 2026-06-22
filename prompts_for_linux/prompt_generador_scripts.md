@@ -466,16 +466,17 @@ set -euo pipefail
 ```
 
 **Códigos de salida estándar:**
-| Código | Significado |
-|--------|-------------------------------|
-| 0 | Éxito |
-| 1 | Error general |
-| 2 | Error de argumentos / uso |
-| 3 | Archivo no encontrado |
-| 4 | Sin permisos |
-| 5 | Dependencia no instalada |
-| 126 | Comando no ejecutable |
-| 127 | Comando no encontrado |
+
+| Código | Significado               |
+| ------ | ------------------------- |
+| 0      | Éxito                     |
+| 1      | Error general             |
+| 2      | Error de argumentos / uso |
+| 3      | Archivo no encontrado     |
+| 4      | Sin permisos              |
+| 5      | Dependencia no instalada  |
+| 126    | Comando no ejecutable     |
+| 127    | Comando no encontrado     |
 
 ---
 
@@ -487,6 +488,7 @@ Genera un README.md completo con exactamente estas secciones:
 # [Nombre del Proyecto]
 
 > [Descripción clara en una o dos líneas de qué hace el script
+>
 > > y para qué sirve]
 
 ## 📋 Tabla de Contenidos
